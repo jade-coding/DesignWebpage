@@ -1,0 +1,42 @@
+.site h1 a {color: #34afce;
+            text-decoration: none;}
+.site h1 {margin: 20;
+          font-size: 30px;}
+.site p {margin:0;
+        font-size: 12px;} 
+.story h1 {margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 36px;}
+.story p {margin-top:0;
+            margin-bottom: 20px;}
+.menu ul {margin: 0;
+          padding : 0;
+        list-style: none;   }
+.menu li a {display:block;
+            padding: 5px;
+            color: #000000;
+            font-size: 14px;
+            text-decoration: none;}
+            
+ /*
+ padding은 내부의 여백과 관련된 것
+ border는 가장자리 선과 관련된 것
+ margin은 border와의 거리를 뜻한다
+ text-decoration을 none으로 함으로서 밑줄이 사라진다.
+ a:hover를 함으로써 마우스를 올렸을때 표시가 달라지도록 만들었음
+ */
+
+.menu li a:hover {background-color: #eeeeee;}
+.menu ul::after {content: "";
+                  display:block;
+                clear: both;
+                margin-bottom: 20px;}
+
+.menu li        {float:left;
+                width:auto;}
+                                
+/* 저작권 */
+.copyright p {margin:0;s
+                color:#666666;
+                font-size:14px;
+}

@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+
+    body {font-family: '맑은고딕';
+        }
+
+        
+       .site h1 a {color: #34afce;
+            text-decoration: none;}
+        .site h1 {margin: 20;
+        font-size: 30px;}
+       
+       
+        .menu ul {margin: 0;
+                 padding : 0;
+                list-style: none; 
+              }
+        .menu li a {display:block;
+              padding: 5px;
+              color: #000000;
+              font-size: 14px;
+              text-decoration: none;}
+
+        .menu li a:hover {background-color: #eeeeee;}
+        .menu ul::after {content: "";
+                    display:block;
+                    clear: both;
+                    margin-bottom: 20px;}
+    
+         .menu li    {float:left;
+                      width:auto;}   
+
+
+
+        .story img{width : 35%;
+                    height : 30%;}
+
+        .storyinfo { margin-top : -10px;
+                      margin-bottom: 18px;}
+        .storyinfo i {margin-right : 5px;
+                      color:#aaaaaa;
+                      font-size: 20px;}
+            
+        .story-cat {margin-bottom: 20px;}
+        .story-cat ul{margin:0;
+                      padding:0;
+                      list-style: none;}
+                      
+        .story-cat li a {display:block;
+                          padding:3px;
+                          color:#ffffff;
+                          background-color: #75dbe7;
+                          font-size:12px;
+                          text-decoration:none;
+                          margin-right:5px;
+                          border-radius: 2px;}
+
+        .story-cat li a:hover{background-color: #54b1b8;}
+        .story-cat ul:after {content:"";
+                            display:block;
+                            clear:both;}
+        .story-cat li {float:left;
+                      width:auto;}
+
+        .story h1   {margin-top: 0;
+                    margin-bottom: 20px;
+                    font-size: 36px;}
+        .story h2 {margin-top:40px;
+                   padding-left: 10px;
+                   border-left: solid 10px #7cbac1;
+                    font-weight: normal;}
+
+        .story p    {margin-top:0;
+                    margin-bottom: 20px;}
+
+
+
+        .sidemenu {margin-bottom: 30px;}
+        .sidemenu ul {margin:0;
+                      padding:0;
+                      list-style: none;}
+        .sidemenu li a {display : block;
+                        padding : 5px;
+                        color : #000000;
+                        font-size : 14px;
+                        text-decoration :none;
+                        }
+        .sidemenu li a:hover {background-color: #eeeeee;}
+        .sidemenu h1 {margin-top:0;
+                      margin-bottom:10px;
+                      border-bottom: dotted 2px #dddddd;  
+                      color: #666666;
+                      font-size: 18px;
+                      }
+
+        .recommend {margin-bottom: 30px;}
+        .recommend ul {margin:  0;
+                      padding: 0;
+                      list-style: none}
+        .recommend li a {display : block;
+                        padding : 5px;
+                        color : #000000;
+                        font-size : 14px;
+                        text-decoration :none;
+                        }              
+        .recommend li a:hover {background-color: #eeeeee;}
+        .recommend h1 {margin-top:0;
+                      margin-bottom:10px;
+                      border-bottom: dotted 2px #dddddd;  
+                      color: #666666;
+                      font-size: 18px;
+                      }
+
+        .popular {margin-bottom: 30px;}
+        .popular ul {margin:  0;
+                      padding: 0;
+                      list-style: none}
+        .popular li a {display : block;
+                        padding : 5px;
+                        color : #000000;
+                        font-size : 14px;
+                        text-decoration :none;
+                        }              
+        .popular li a:hover {background-color: #eeeeee;}
+        .popular h1 {margin-top:0;
+                      margin-bottom:10px;
+                      border-bottom: dotted 2px #dddddd;  
+                      color: #666666;
+                      font-size: 18px;
+                      }
+
+        .copyright {margin:0;
+                    columns: #666666;
+                    font-size:14px;}
+
+    @media (min-width :768px){
+    .boxA:after {content:"  ";
+            display:block;
+            clear:both;
+        }
+
+    .box3{float :left;
+        width:70%;}
+    .box4{float:left;
+        width:30%;}
+
+    }
